@@ -1,0 +1,168 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(191, 239, 209);
+  }
+
+  .header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 20px;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
+  .card-text p {
+    margin: 8px 0;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .card-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .card {
+      width: calc(50% - 16px);
+    }
+  }
+
+.row-2 {
+    display: flex;
+    justify-content: start;
+    margin-left: 5px;
+}
+
+.card-title{
+    color: white;
+    background-color: gray;
+    width: fit-content;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+}
+.card-text p{
+    background-color: gray;
+    color: white;
+    width: fit-content;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 10px;
+    font-size: small;
+
+} 
+.checkbox-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    height: max-content;
+    width: 20%;
+    margin-top: 30px;
+    padding: 50px;
+}
+  
+.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    appearance: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    border-color:gray;
+    background-color: gray;
+}
+
+input[type="checkbox"] + label {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.show-lithuania {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 320px;
+    margin-top: 25px;   
+}
+
+.show-lithuania:hover {
+    background-color: darkgray;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.right-menu{
+    
+    width: 100%;
+}
+
+.dropdown-container{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.card-text p{
+    font-size: 15px;
+}

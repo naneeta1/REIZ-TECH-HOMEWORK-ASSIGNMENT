@@ -1,0 +1,47 @@
+label {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    background-color: gray;
+    padding: 10px;border-radius: 10px ;
+  }
+  
+  /* Style for the select element */
+  select {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white; /* Change the background color */
+    color: gray;
+    border: solid 2px gray;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+  
+  /* Style for the select element when it's opened */
+  select:focus {
+    outline: none;
+  }
+  
+  /* Style for the options */
+  option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: white; /* Change the background color */
+    color: gray;
+    border: solid 2px gray;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+  }
+option:hover{
+    color: white;
+    background-color: gray;
+  }
+  
+
